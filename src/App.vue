@@ -2,8 +2,9 @@
   <div id="app">
     <aside>
       <el-menu class="min-height-full" background-color="#fdfdfd"
-               active-text-color="#285794" :router="true">
-        <el-menu-item index="/0-0">
+               active-text-color="#285794" :router="true"
+               default-active="/helloworld">
+        <el-menu-item index="/helloworld">
           HelloWorld
         </el-menu-item>
         <el-submenu index="spec">
@@ -49,7 +50,7 @@
     color: #58576f;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
     aside {
       display: none;
     }
@@ -115,4 +116,16 @@
     color: #526176;
     margin-top: 40px;
   }
+
+  a, a:visited {
+    color: #42b983;
+  }
 </style>
+
+<script>
+  export default {
+    mounted() {
+      this.$router.push('/helloworld')
+    }
+  }
+</script>

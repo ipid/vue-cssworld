@@ -3,5 +3,7 @@ module.exports = {
     devServer: {
       open: true
     }
-  }
+  },
+  baseUrl: '/vue-cssworld/',
+  productionSourceMap: false
 }
