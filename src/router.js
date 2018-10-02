@@ -7,6 +7,7 @@ import world3 from './views/world/3.vue'
 import world4 from './views/world/4.vue'
 import world5 from './views/world/5.vue'
 import world6 from './views/world/6.vue'
+import specPseudos from './views/spec/pseudos.vue'
 
 Vue.use(Router)
 
@@ -14,6 +15,9 @@ export default new Router({
   routes: [{
     path: '/helloworld',
     component: comp00
+  }, {
+    path: '/spec/pseudos',
+    component: specPseudos
   }, {
     path: '/spec/10',
     component: spec10

@@ -9,6 +9,9 @@
         </el-menu-item>
         <el-submenu index="spec">
           <template slot="title">标准</template>
+          <el-menu-item index="/spec/pseudos">
+            Funcs & Pseudos
+          </el-menu-item>
           <el-menu-item index="/spec/undef">
             明确规定的未定义行为
           </el-menu-item>
@@ -116,32 +119,32 @@
 
   .color1 {
     color: #b2daff;
-    border-color: #b2daff;
+    border: 3px solid #b2daff;
   }
 
   .color2 {
     color: #a7efb6;
-    border-color: #a7efb6;
+    border: 3px solid #a7efb6;
   }
 
   .color3 {
     color: #ffd7ad;
-    border-color: #ffd7ad;
+    border: 3px solid #ffd7ad;
   }
 
   .color4 {
     color: #ffadad;
-    border-color: #ffadad;
+    border: 3px solid #ffadad;
   }
 
   .color5 {
     color: #fac2f4;
-    border-color: #fac2f4;
+    border: 3px solid #fac2f4;
   }
 
   .color6 {
     color: #e1e22c;
-    border-color: #e1e22c;
+    border: 3px solid #e1e22c;
   }
 
   h4 {
